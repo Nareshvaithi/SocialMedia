@@ -7,7 +7,7 @@ const Author = ({ userId }) => {
 
     return (
         <div>
-            {author ? (author.id === 0 ? "unknown author" : author.author) : "unknown author"}
+            by {author ? (author.id === 0 ? "unknown author" : author.author) : "unknown author"}
         </div>
     );
 }
